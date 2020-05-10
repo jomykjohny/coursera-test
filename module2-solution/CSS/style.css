@@ -1,18 +1,14 @@
 * {
   box-sizing: border-box;
-   font-family: cursive;
+   font-family: sans-serif;
 }
-
- .col-lg-4, .col-md-6, .col-sm-12{
-  float: left;
-} 
-
 
 h1 {
   margin-bottom: 15px
-  font-size: 175%;
+  font-size:175%;
   text-align: center;
 }
+
 
 p {
   padding: 10px;
@@ -28,9 +24,9 @@ p {
   padding: 10px;
 }
 
-section {
+section{
   border: 1px solid black;
-  background-color: gray;
+  background-color: darkgray;
   width: 100%;
   height: 200px;
   font-family: cursive;
@@ -81,6 +77,12 @@ section {
   padding: 5px;
 }
 
+
+ .col-lg-4, .col-md-6, .col-sm-12
+{
+  float: left;
+} 
+
  
 .row 
 {
@@ -108,8 +110,7 @@ section {
 }
 
 /********** mobile devices**********/
-@media (max-width: 767px)
-  {
+@media (max-width: 767px){
   .col-sm-12{
     width: 100%;
   }
